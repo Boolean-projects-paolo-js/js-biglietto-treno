@@ -30,6 +30,7 @@ if (età < 18) {
     console.log(prezzobiglietto2);
 } 
 
+document.getElementById('prezzo').innerHTML = prezzobiglietto.toFixed(2);
 
 
 
